@@ -1,0 +1,19 @@
+.container_12
+{
+	height:160px; /* logo = 140px / Gutter 10px */
+	vertical-align:middle;
+	margin-bottom:20px;
+	background-color:#ffffff;
+}
+.logo
+{
+	background-image:url("/images/roundtable.png");
+	height:100%;
+	background-repeat:no-repeat;
+	margin-top:10px;
+}
+
+body
+{
+	background-image:url("/images/BodyBG.png");
+}
