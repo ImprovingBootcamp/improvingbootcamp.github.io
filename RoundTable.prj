@@ -14,8 +14,7 @@ Create Tagfile=0
 [Files - _layouts]
 0=_layouts\default.html
 [Files - css]
-0=css\960gs.css
-1=css\theme.css
-2=css\grid.css
+0=css\theme.css
+1=css\grid.css
 [Files]
 0=index.html
