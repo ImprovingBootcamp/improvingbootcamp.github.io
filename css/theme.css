@@ -1,19 +1,57 @@
-.container_12
+.contentArea
 {
-	height:160px; /* logo = 140px / Gutter 10px */
-	vertical-align:middle;
-	margin-bottom:20px;
 	background-color:#ffffff;
-}
-.logo
-{
-	background-image:url("/images/roundtable.png");
+	padding:10px;
+	margin-left:10px;
+	margin-right:10px;
 	height:100%;
-	background-repeat:no-repeat;
-	margin-top:10px;
+}
+
+.grid_4 .contentArea a, .grid_4 .contentArea
+{
+	color:#666666;
+}
+
+.banner
+{
+	background-image:url("/images/header.png");
+	background-repeat:repeat-x;
+	height:140px;
+}
+
+.grid_6
+{
+	height:400px;
+}
+
+.logo, .header
+{
+	height:140px;
+}
+
+.spacer
+{
+	clear:both;
+	height:20px;
+}
+
+.header h1 
+{
+	line-height:100px;
+	vertical-align:middle;
+}
+
+h1, h2, h3, h4
+{
+	font-family:sans-serif;
 }
 
 body
 {
 	background-image:url("/images/BodyBG.png");
+}
+
+li
+{
+	font-size:18pt;
 }

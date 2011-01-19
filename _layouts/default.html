@@ -1,31 +1,52 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
-		<link rel="stylesheet" type="text/css" href="http://960ls.atomidata.com/static/cssserve/1/7/5/4/2/0/175420.css">
-		<link rel="stylesheet" type="text/css" href="/css/960gs.css">
+		<link rel="stylesheet" type="text/css" href="/css/grid.css">
 		<link rel="stylesheet" type="text/css" href="/css/theme.css">
 		<title>{{ page.title }}</title>
 	</head>
 	<body>
-		<div id=header class=container_12 sizcache="430" sizset="0">
-			<div class="grid_2 logo">&nbsp;</div>
+
+		<div class="container_12 spacer">&nbsp;</div>
+
+		<div class="banner">
+		<div id=header class="container_12">
+			<div class="grid_2 logo"><img src="/images/roundtable.png" /></div>
 			<div class="grid_10 header">
 				<h1>Round Table Craftsman</h1>
 			</div>
 		</div>
-		
-		<div id=content class=container_12 sizcache="668" sizset="0">
-			<div class="grid_2 leftCol">&nbsp;</div>
-			<div class="grid_10 content">
-				{{ content }}
+		</div>
+
+		<div class="container_12 spacer">&nbsp;</div>
+
+		<div id="content" class="container_12 ">
+			<div class="grid_6">
+				<div class="contentArea">
+					<h1>Projects</h1>
+					<ul>
+						<li><a href="Squire">Squire</a> - A set of training exercises to teaches the basics of the .NET Framework.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="grid_6">
+				<div class="contentArea">
+					{{ content }}
+				</div>
 			</div>
 		</div>
-		
+
+		<div class="container_12 spacer">&nbsp;</div>
+		<div class="container_12 spacer">&nbsp;</div>
+
 		<div id=footer class=container_12>
-			<div class="grid_4 footerLeft"></DIV>
-			<div class="grid_4 footerCenter"></DIV>
-			<div class="grid_4 footerRight"></div>
+			<div class="grid_4 footerLeft"><div class="contentArea">&nbsp;</div></div>
+			<div class="grid_4 footerCenter"><div class="contentArea">
+			Painstakingly created by fumbling through <a href="http://960.gs">960.gs</a> and <a href="http://github.com/mojombo/jekyll">Jekyll</a> by <a href="http://TimRayburn.net">Tim Rayburn</a>.
+			</div></div>
+			<div class="grid_4 footerRight"><div class="contentArea">&nbsp;</div></div>
 		</div>
+		
 	</body>
 </html>
  
