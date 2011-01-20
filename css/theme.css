@@ -1,6 +1,10 @@
 .contentArea
 {
 	background-color:#ffffff;
+}
+
+.contentArea, .contentAreaLarge
+{
 	padding:10px;
 	margin-left:10px;
 	margin-right:10px;
@@ -22,6 +26,8 @@
 .grid_6
 {
 	height:400px;
+	background-image:url("/images/columnBG.png");
+	background-repeat:no-repeat;
 }
 
 .logo, .header
