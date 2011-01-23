@@ -3,7 +3,7 @@
 	background-color:#ffffff;
 }
 
-.contentArea, .contentAreaLarge
+.contentArea, .contentAreaLarge, .contentAreaHuge
 {
 	padding:10px;
 	margin-left:10px;
@@ -27,6 +27,12 @@
 {
 	height:400px;
 	background-image:url("/images/columnBG.png");
+	background-repeat:no-repeat;
+}
+
+.grid_12
+{
+	background-image:url("/images/largeColumnBG.png");
 	background-repeat:no-repeat;
 }
 
